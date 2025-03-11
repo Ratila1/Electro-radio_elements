@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Пример кнопки для резистора -->
+        <Button
+            android:id="@+id/button_resistor"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/ripple_effect"
+            android:fontFamily="@font/font1"
+            android:padding="30dp"
+            android:text="Резисторы"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <!-- Добавьте другие кнопки для других элементов -->
+        <Button
+            android:id="@+id/button_capacitor"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:text="Конденсаторы"
+            android:layout_marginBottom="30dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="@drawable/ripple_effect"
+            android:padding="30dp"
+            android:fontFamily="@font/font1"/>
+
+        <Button
+            android:id="@+id/button_Coils"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:textColor="@color/white"
+            android:text="Катушки и трансформаторы"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="30dp"
+            android:textSize="20sp"
+            android:padding="30dp"
+            android:fontFamily="@font/font1"/>
+        <Button
+            android:id="@+id/button_diods"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:textColor="@color/white"
+            android:text="Диоды и светодиоды"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="30dp"
+            android:textSize="20sp"
+            android:padding="30dp"
+            android:fontFamily="@font/font1"/>
+        <Button
+            android:id="@+id/button_transistors"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:textColor="@color/white"
+            android:text="Транзисторы"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="30dp"
+            android:textSize="20sp"
+            android:padding="30dp"
+            android:fontFamily="@font/font1"/>
+        <Button
+            android:id="@+id/button_fuses"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="89dp"
+            android:text="Предохранители"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="30dp"
+            android:textSize="20sp"
+            android:padding="30dp"
+            android:fontFamily="@font/font1"/>
+        <Button
+            android:id="@+id/button_grounding"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/font1"
+            android:text="Заземление и нулевой провод"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="30dp"
+            android:textSize="16sp"
+            android:padding="30dp"/>
+        <Button
+            android:id="@+id/button_contact"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:text="Контактные элементы"
+            android:textColor="@color/white"
+            android:fontFamily="@font/font1"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="30dp"
+            android:textSize="20sp"
+            android:padding="30dp"/>
+        <Button
+            android:id="@+id/button_devices"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:fontFamily="@font/font1"
+            android:textColor="@color/white"
+            android:text="Электромеханические устройства"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="30dp"
+            android:textSize="16sp"
+            android:padding="30dp"/>
+        <Button
+            android:id="@+id/button_acoustic"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:text="Акустические элементы"
+            android:textColor="@color/white"
+            android:fontFamily="@font/font1"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="30dp"
+            android:textSize="20sp"
+            android:padding="30dp"/>
+        <Button
+            android:id="@+id/button_power"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:text="Источники питания"
+            android:fontFamily="@font/font1"
+            android:textColor="@color/white"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/ripple_effect"
+            android:textSize="20sp"
+            android:padding="30dp"/>
+        <Button
+            android:id="@+id/button_quartz"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:text="Кварцевые резонаторы"
+            android:fontFamily="@font/font1"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:padding="30dp"/>
+        <Button
+            android:id="@+id/button_microcircuits"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:textColor="@color/white"
+            android:text="Микросхемы"
+            android:fontFamily="@font/font1"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="30dp"
+            android:textSize="20sp"
+            android:padding="30dp"/>
+    </LinearLayout>
+</ScrollView>

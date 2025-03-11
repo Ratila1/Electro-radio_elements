@@ -1,0 +1,13 @@
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Новые синие цвета -->
+    <color name="soft_blue_light">#FF87CEEB</color> <!-- Светло-синий -->
+    <color name="soft_blue_dark">#FF4682B4</color>  <!-- Темно-синий -->
+    <color name="light_blue_1">#FF87CEEB</color> <!-- Светло-голубой -->
+    <color name="light_blue_2">#FFADD8E6</color> <!-- Еще более светлый голубой -->
+</resources>
